@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  justify-content: center;
+  margin-left: 750px;
+}
+
+nav>a {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  background-color: lightgrey;
+  display: inline;
+}
+
+nav{
+  margin-left: 540px;
+}
+
+ #featured-property {
+  width: 800px;
+  text-align: center;
+  display: grid;
+  margin-left: 410px;
+}
+
+#details {
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  text-align: center;
+}
